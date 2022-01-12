@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function Testimonials() {
+export default function Experience() {
     return(
-        <section id='testimonials'>
+        <section id='experience'>
             <div className='row'>
-                <h1>Testimonials</h1>
+                <h1>Experience</h1>
             </div>
         </section>
     );
