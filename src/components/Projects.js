@@ -12,12 +12,29 @@ export default function Projects() {
                     </p>
                 </div>
             </div>
-            <div className='col-md-12'>
+            <div className='row mx-auto'>
                 {projects.map((project) => (
                     <a
                         href={project.link}
                         key={project.image}
-                        className=''
+                        className='col-md-4'>
+                        <div className=''>
+                            <img 
+                                alt='gallery'
+                                className=''
+                                src={project.image}
+                            />
+                            <div className="">
+                                <h2 className="">
+                                    {project.subtitle}
+                                </h2>
+                                <h1 className="">
+                                    {project.title}
+                                </h1>
+                                <p className="">{project.description}</p>
+                            </div>
+                        </div>
+                    </a>
                 ))}
             </div>
         </section>

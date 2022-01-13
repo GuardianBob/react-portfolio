@@ -4,7 +4,7 @@ export const projects = [
         subtitle: "Python Stack",
         description:
             "Lorem ipsum dolar...",
-        image: "./images/project1.jpg",
+        image: "./images/AWaL_logo.png",
         link: "https://github.com/GuardianBob"
     },
     {
@@ -12,7 +12,7 @@ export const projects = [
         subtitle: "Python Stack",
         description:
             "Lorem ipsum dolar...2!",
-        image: "./images/project2.jpg",
+        image: "./images/Cruxial-logo.jpg",
         link: "https://github.com/GuardianBob"
     },
 ];
@@ -24,4 +24,4 @@ export const skills = [
     "HTML5",
     "CSS3",
     "jQuery",
-  ];
+];
