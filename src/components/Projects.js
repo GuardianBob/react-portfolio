@@ -20,9 +20,9 @@ export default function Projects() {
                         className='col-md-4'>
                         <div className=''>
                             <img 
-                                alt='gallery'
+                                alt={project.title}
                                 className=''
-                                src={project.image}
+                                src={require(project.image)}
                             />
                             <div className="">
                                 <h2 className="">
