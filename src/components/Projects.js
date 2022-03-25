@@ -23,6 +23,7 @@ export default function Projects() {
                                 alt={project.title}
                                 className=''
                                 src={require(`../images/${project.image}`)}
+                                width="100"
                             />
                             <div className="">
                                 <h2 className="">

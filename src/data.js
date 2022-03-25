@@ -15,6 +15,22 @@ export const projects = [
         image: "Cruxial-logo.jpg",
         link: "https://github.com/GuardianBob"
     },
+    {
+        title: "Project Title 3",
+        subtitle: "Python Stack",
+        description:
+            "Lorem ipsum dolar...3!",
+        image: "AWaL_logo.png",
+        link: "https://github.com/GuardianBob"
+    },
+    {
+        title: "Project Title 4",
+        subtitle: "Python Stack",
+        description:
+            "Lorem ipsum dolar...4!",
+        image: "Cruxial-logo.jpg",
+        link: "https://github.com/GuardianBob"
+    },
 ];
 
 export const skills = [
