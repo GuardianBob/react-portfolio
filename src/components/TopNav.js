@@ -4,11 +4,11 @@ import { Navbar, Button, Nav, Container, NavDropdown } from 'react-bootstrap';
 export default function TopNav() {
     return(
         <Navbar bg="light" expand="lg" fixed='top'>
-            <Container >
+            <Container>
                 <Navbar.Brand href="#">JMeyer</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
+                <Navbar.Collapse id="basic-navbar-nav" >
+                    <Nav className="me-auto justify-content-around" style={{ width: "100%" }}>
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#about">About</Nav.Link>
                         <NavDropdown title="Experience" id="basic-nav-dropdown" href="#experience">
