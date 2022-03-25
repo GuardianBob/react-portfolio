@@ -4,7 +4,7 @@ export const projects = [
         subtitle: "Python Stack",
         description:
             "Lorem ipsum dolar...",
-        image: "./images/AWaL_logo.png",
+        image: "AWaL_logo.png",
         link: "https://github.com/GuardianBob"
     },
     {
@@ -12,7 +12,7 @@ export const projects = [
         subtitle: "Python Stack",
         description:
             "Lorem ipsum dolar...2!",
-        image: "./images/Cruxial-logo.jpg",
+        image: "Cruxial-logo.jpg",
         link: "https://github.com/GuardianBob"
     },
 ];

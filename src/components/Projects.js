@@ -22,7 +22,7 @@ export default function Projects() {
                             <img 
                                 alt={project.title}
                                 className=''
-                                src={require(project.image)}
+                                src={require(`../images/${project.image}`)}
                             />
                             <div className="">
                                 <h2 className="">
